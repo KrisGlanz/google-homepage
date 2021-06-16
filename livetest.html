@@ -3,18 +3,32 @@
     <head>
         <title>Google</title>
         <style> 
-            img{
+            .image{
                position: fixed;
                top: 50%;
-               left: 50%;
+               left: 50%;  
                margin-top: -50px;
                margin-left: -100px;
+            }
+            .inputbox{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: 50px;
+                margin-left: -50px;
+
             }
         </style>
     </head>
     <body>
-        <div>
+        <div class="image">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <div class="inputbox">
+            <input type="search">
+        </div>
+        <div>
+            <input type="button">
         </div>
     </body>
 </html>
