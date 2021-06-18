@@ -1,0 +1,35 @@
+ .image{
+position: fixed;
+top: 50%;
+left: 50%;  
+margin-top: -50px;
+margin-left: -100px;
+            }
+            .inputbox{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: 50px;
+                margin-left: -200px;
+                
+            }
+            .inputbox input {
+                width: 500px;
+            }
+            .lucky{
+              position: fixed; 
+              top: 50%;
+              left: 50%; 
+              margin-top: 80px;
+              margin-left: 50px;
+              text-align: center;
+            }
+            .search {
+                position:fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: 80px;
+                margin-left: -100px;
+                text-align: center;
+            }
+    
