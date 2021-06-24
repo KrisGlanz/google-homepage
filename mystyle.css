@@ -1,27 +1,10 @@
- html {
-     min-height: 100%;
-     
- }
- body {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: arial, sans-serif;
- }
 
- main {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
- 
  .image{
-    position: fixed;
-    top: 50%;
-    left: 50%;  
-    margin-top: -50px;
-    margin-left: -100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -30,8 +13,9 @@
     display: flex;
     padding: 6px;
     align-items: left;
+    height: 60px;
 }
-
+/*
 .inputbox{
     position: fixed;
     top: 50%;
@@ -64,7 +48,7 @@
     margin-left: -100px;
     text-align: center;
 }
-
+*/
 button {
     background-color: #f8f9fa;
     border-radius: 4px;
@@ -76,6 +60,7 @@ button {
     height: 36px;
     min-width: 54px;
     cursor: pointer;
+    display: inline-block
 }
 
 ul {
