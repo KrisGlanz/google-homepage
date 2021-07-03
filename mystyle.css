@@ -16,22 +16,20 @@
     align-items: left;
     height: 60px;
 }
-/*
+
 .inputbox{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: 50px;
-    margin-left: -200px;
-                
+  display: flex;
+  justify-content: center;
+
 }
+
 .inputbox input {
     width: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 30px;
     border: 1px solid;
 }
-
+/*
 .lucky{
     position: fixed; 
     top: 50%;
@@ -51,7 +49,7 @@
 }
 */
 button {
-    background-color: gainsboro;
+    background-color: lightgrey;
     border-radius: 15px;
     padding: 0 16px;
     font-size: 14px;
